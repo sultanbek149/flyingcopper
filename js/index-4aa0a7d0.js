@@ -89424,7 +89424,7 @@ function fRe({ connectWallet: t = () => { }
     }
       : t
     , I = fe.jsxs(fe.Fragment, {
-      children: [r ? kV(r) : "CONNECT WALLET111", r && fe.jsx(eA, {
+      children: [r ? kV(r) : "CONNECT WALLET", r && fe.jsx(eA, {
         style: {
           color: "black",
           marginLeft: 5,
