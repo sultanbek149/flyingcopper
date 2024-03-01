@@ -89430,8 +89430,9 @@ function fRe({ connectWallet: t = () => { }
           marginLeft: 5,
           fontSize: g ? "0.6rem" : void 0
         },
-        className: "connectButton"
-      })]
+      },
+      )],
+      className: "connectButton"
     })
     , P = ({ days: m, hours: R, minutes: z, seconds: $, completed: Z }) => Z ? fe.jsx(fe.Fragment, {}) : fe.jsxs(Fr, {
       style: {
@@ -89446,7 +89447,7 @@ function fRe({ connectWallet: t = () => { }
     mintNFT: w,
     mintWithCard: y,
     connectWalletText: I,
-    isMintEnabled: E,
+    // isMintEnabled: E,
     isPublicMintingOpen: u === 2,
     account: r,
     isLoading: c
