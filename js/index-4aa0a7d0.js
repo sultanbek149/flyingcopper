@@ -89430,6 +89430,7 @@ function fRe({ connectWallet: t = () => { }
           marginLeft: 5,
           fontSize: g ? "0.6rem" : void 0
         },
+        className: "connectButton"
       },
       )],
       className: "connectButton"
