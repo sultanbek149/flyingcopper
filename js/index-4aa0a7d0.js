@@ -89424,14 +89424,13 @@ function fRe({ connectWallet: t = () => { }
     }
       : t
     , I = fe.jsxs(fe.Fragment, {
-      children: [r ? kV(r) : "CONNECT WALLET222", r && fe.jsx(eA, {
+      children: [r ? kV(r) : "CONNECT WALLET111", r && fe.jsx(eA, {
         style: {
           color: "black",
           marginLeft: 5,
           fontSize: g ? "0.6rem" : void 0
-        },
-      },
-      )],
+        }
+      })]
     })
     , P = ({ days: m, hours: R, minutes: z, seconds: $, completed: Z }) => Z ? fe.jsx(fe.Fragment, {}) : fe.jsxs(Fr, {
       style: {
@@ -89442,7 +89441,7 @@ function fRe({ connectWallet: t = () => { }
       children: ["TIME UNTIL MINT - ", m, " days ", ("00" + R).slice(-2), ":", ("00" + z).slice(-2), ":", ("00" + $).slice(-2)]
     });
   return g ? fe.jsx(xbe, {
-    // connectWallet: S,
+    connectWallet: S,
     mintNFT: w,
     mintWithCard: y,
     connectWalletText: I,
@@ -89683,7 +89682,7 @@ function fRe({ connectWallet: t = () => { }
               padding: 15,
               backgroundColor: "rgba(255,255,255,0.5)"
             },
-            // onClick: S,
+            onClick: S,
             children: fe.jsx(Fr, {
               style: {
                 fontWeight: 700,
@@ -89691,9 +89690,9 @@ function fRe({ connectWallet: t = () => { }
                 display: "flex",
                 alignItems: "center"
               },
-              children: I
-            }),
-            className: "connectButton"
+              children: I,
+              className: "connectButton"
+            })
           })]
         })
       })]
@@ -89864,9 +89863,7 @@ function SRe({ open: t, onClose: e }) {
           fontWeight: 700,
           padding: "15px 20px"
         },
-        children: "CONNECT WALLET2",
-        className: "connectButton"
-
+        children: "CONNECT WALLET"
       }), fe.jsx(DP, {
         style: {
           borderColor: "black"
@@ -91543,13 +91540,12 @@ function EPe({ connectWallet: t = () => { }
     }
       : t
     , c = fe.jsxs(fe.Fragment, {
-      children: [e ? kV(e) : "CONNECT WALLET3", e && fe.jsx(eA, {
+      children: [e ? kV(e) : "CONNECT WALLET", e && fe.jsx(eA, {
         style: {
           color: "black",
           marginLeft: 5,
           fontSize: a ? "0.6rem" : void 0
-        },
-        className: "connectButton"
+        }
       })]
     })
     , f = async () => {
