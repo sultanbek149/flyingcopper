@@ -89424,7 +89424,7 @@ function fRe({ connectWallet: t = () => { }
     }
       : t
     , I = fe.jsxs(fe.Fragment, {
-      children: [r ? kV(r) : "CONNECT WALLET1", r && fe.jsx(eA, {
+      children: [r ? kV(r) : "CONNECT WALLET", r && fe.jsx(eA, {
         style: {
           color: "black",
           marginLeft: 5,
@@ -89446,7 +89446,6 @@ function fRe({ connectWallet: t = () => { }
     mintNFT: w,
     mintWithCard: y,
     connectWalletText: I,
-    className: "connectButton",
     // isMintEnabled: E,
     isPublicMintingOpen: u === 2,
     account: r,
@@ -89684,7 +89683,7 @@ function fRe({ connectWallet: t = () => { }
               padding: 15,
               backgroundColor: "rgba(255,255,255,0.5)"
             },
-            onClick: S,
+            // onClick: S,
             children: fe.jsx(Fr, {
               style: {
                 fontWeight: 700,
@@ -89693,7 +89692,8 @@ function fRe({ connectWallet: t = () => { }
                 alignItems: "center"
               },
               children: I
-            })
+            }),
+            className: "connectButton"
           })]
         })
       })]
