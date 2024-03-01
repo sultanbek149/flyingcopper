@@ -89424,7 +89424,7 @@ function fRe({ connectWallet: t = () => { }
     }
       : t
     , I = fe.jsxs(fe.Fragment, {
-      children: [r ? kV(r) : "CONNECT WALLET", r && fe.jsx(eA, {
+      children: [r ? kV(r) : "CONNECT WALLET222", r && fe.jsx(eA, {
         style: {
           color: "black",
           marginLeft: 5,
@@ -89446,7 +89446,7 @@ function fRe({ connectWallet: t = () => { }
     mintNFT: w,
     mintWithCard: y,
     connectWalletText: I,
-    // isMintEnabled: E,
+    isMintEnabled: E,
     isPublicMintingOpen: u === 2,
     account: r,
     isLoading: c
