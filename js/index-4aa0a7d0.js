@@ -89982,8 +89982,9 @@ function ARe() {
                         children: fe.jsx(_w, {
                             onClick: ()=>r("/"),
                             children: "Mint",
-                            className: "connectButton"
-                        })
+                        }),
+                      className: "connectButton"
+
                     })
                 }), fe.jsx(Gg, {
                     onClick: ()=>e(!1),
