@@ -89424,15 +89424,15 @@ function fRe({ connectWallet: t = () => { }
     }
       : t
     , I = fe.jsxs(fe.Fragment, {
-      children: [r ? kV(r) : "CONNECT WALLET11", r && fe.jsx(eA, {
+      children: [r ? kV(r) : "CONNECT WALLET111", r && fe.jsx(eA, {
         style: {
           color: "black",
           marginLeft: 5,
           fontSize: g ? "0.6rem" : void 0
         },
-      className: "connectButton"
       },
       )],
+      className: "connectButton"
     })
     , P = ({ days: m, hours: R, minutes: z, seconds: $, completed: Z }) => Z ? fe.jsx(fe.Fragment, {}) : fe.jsxs(Fr, {
       style: {
