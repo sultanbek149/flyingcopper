@@ -89972,7 +89972,6 @@ function ARe() {
             onClose: ()=>e(!1),
             children: [fe.jsxs(Pfe, {
                 children: [fe.jsx(Gg, {
-                    onClick: ()=>e(!1),
                     divider: !0,
                     children: fe.jsx(Kg, {
                         style: {
@@ -89984,7 +89983,6 @@ function ARe() {
                             children: "Mint",
                         }),
                       className: "connectButton"
-
                     })
                 }), fe.jsx(Gg, {
                     onClick: ()=>e(!1),
